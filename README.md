@@ -1,2 +1,2 @@
 # countdown
-countdown to june 18th
+countdown to june 18th!

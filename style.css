@@ -1,0 +1,15 @@
+html {
+    background-color: darkslategray;
+}
+.center {
+    align-content: center;
+}
+.white {
+    color: white;
+}
+.gray {
+    color: gray;
+}
+#countdown {
+    color: red;
+}
