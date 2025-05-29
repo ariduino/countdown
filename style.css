@@ -8,8 +8,10 @@ html {
 
 .title {
     color: white;
+    font-size: 15vw;
 }
 
 #countdown {
     color: red;
+    font-size: 10vw;
 }
