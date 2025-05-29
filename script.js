@@ -19,16 +19,15 @@ var x = setInterval(function() {
   // Output the result in an element with id="countdown"
   document.getElementById("countdown").innerHTML = days + "d " + hours + "h "
   + minutes + "m " + seconds + "s ";
-    
+  if (seconds % 2 == 0) {
+    document.getElementById("countdown").style.color = "yellow";
+  }
+  else {
+    document.getElementById("countdown").style.color = "red";
+  }
   // If the count down is over, write some text 
   if (distance < 0) {
     clearInterval(x);
     document.getElementById("countdown").innerHTML = "THE WORLD HAS AlREADY ENDED!!!";
-  }
-  if (seconds % 2 == 0) {
-    document.getElementById("countdown").style.color = "red";
-  }
-  else {
-    document.getElementById("countdown").style.color = "yellow";
   }
 }, 1000);
