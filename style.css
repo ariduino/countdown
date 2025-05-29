@@ -8,9 +8,9 @@ html {
 
 .title {
     color: white;
-    font-size: 100%;
+    font-size: 2em;
 }
 
 #countdown {
-    font-size: 100%;
+    font-size: 1.5em;
 }
