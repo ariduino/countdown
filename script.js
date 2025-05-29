@@ -25,7 +25,7 @@ var x = setInterval(function() {
     clearInterval(x);
     document.getElementById("countdown").innerHTML = "THE WORLD HAS AlREADY ENDED!!!";
   }
-  if (second % 2 == 0) {
+  if (seconds % 2 == 0) {
     document.getElementById("countdown").style.color = "red";
   }
   else {
